@@ -9,5 +9,4 @@ The aim of the project is to create a  realtime Chat Application where multiple 
  # Link of the Website: (It may take some time to open)
  https://instapixy-chat-app.herokuapp.com/
  
- 
-
+ <img width="958" alt="chatapp" src="https://user-images.githubusercontent.com/60184336/123650164-f33beb00-d847-11eb-84e1-cb948bde17dc.PNG">

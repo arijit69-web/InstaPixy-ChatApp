@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>
-    InstaPixy - Chat App </title>
+    InstaPixy - Messenger </title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link rel="icon" href="/static/icon.PNG" />
@@ -115,11 +115,11 @@
       <img src="" />
       <a class="navbar-brand" href="https://instapixy.herokuapp.com/explorer" style="color: white;">
         <img src="/static/icon.PNG" width="30" height="30" class="d-inline-block align-top" alt="">
-        Home
+        InstaPixy
       </a>
       <h1 style="text-align: center; color: white;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InstaPixy Group
-        Chat App</h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InstaPixy Messenger
+        </h1>
     </div>
     <div class="message_area"></div>
     <div>
@@ -134,8 +134,8 @@
     let textarea = document.querySelector("#textarea");
     let message_area = document.querySelector(".message_area");
     do {
-      name = prompt("Please Enter your Username:");
-    } while (!name);
+      name = prompt("Please Enter your Username/Name:");
+    } while (!name.trim());
 
     textarea.addEventListener("keyup", (e) => {
       if (e.key === "Enter") {
